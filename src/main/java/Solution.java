@@ -7,9 +7,14 @@ public class Solution {
     public Solution() {}
 
     public boolean endsLy(String x) {
-        //implement code here
-        return false;
-    }
+        if (x.indexOf("Ly") != -1) {
+            return true;
+            }else if (x.indexOf("ly") != -1){
+
+                return true;
+            }else
+                return false;
+}
 
     public String conCat(String s1, String s2) {
         //implement code here
